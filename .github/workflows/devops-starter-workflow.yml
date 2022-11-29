@@ -9,11 +9,10 @@ env:
   AZURE_WEBAPP_PACKAGE_PATH: "Application"      # set this to the path to your web app project, defaults to the repository root
   PYTHON_VERSION: '3.7.5'                       # set this to the python version to use
   RESOURCEGROUPNAME: "test-sonarQubee-rg"
-  LOCATION: "East Asia"
+  LOCATION: "South Central US"
   HOSTINGPLANNAME: "test-sonarQubee-plan"
   APPINSIGHTLOCATION: "East Asia"
-  SKU: "B1"
-  SONAR_HOST_URL: "http://20.194.33.30"
+  SKU: "B1 Basic"
 
 jobs:
   Build:

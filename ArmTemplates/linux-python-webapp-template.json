@@ -14,7 +14,7 @@
         "sku": {
             "type": "string",
             "defaultValue": "Standard S1"
-        }, 
+        },
         "startupCommand": {
             "type": "string",
             "defaultValue": ""

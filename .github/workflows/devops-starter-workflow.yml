@@ -16,7 +16,7 @@ env:
   SONAR_HOST_NAME: "http://20.107.223.180"
 
 jobs:
-  Build:
+  Build: 
     name: Build and Run tests
     runs-on: ubuntu-latest
     steps:
